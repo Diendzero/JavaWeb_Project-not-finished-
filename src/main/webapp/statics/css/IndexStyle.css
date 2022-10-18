@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+/**
+index首页界面CSS
+ */
+body {
+    overflow: visible;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    font-family: "汉仪文黑";
+}
+
+#ul-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10b0f6;
+}
+
+#bar {
+    float: left;
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 5px 5px;
+}
+
+#title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+#div-vertical-nav {
+    display: none;
+}
+
+.li-horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    border-left: 1px solid #ffffff;
+}
+
+.li-horizontal a:hover {
+    background-color: #0985ef;
+}
+
+#ul-vertical {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 165px;
+    height: 550px;
+    background-color: rgba(61, 60, 60, 0.53);
+}
+
+#ul-vertical-subdiv1 {
+    margin: 0px 5px;
+    background-color: #7b7979;
+}
+
+#ul-vertical-subdiv2 {
+    margin: 10px 5px;
+    background-color: #7b7979;
+}
+
+.li-vertical a {
+    display: block;
+    color: white;
+    padding: 8px 40px;
+    text-decoration: none;
+}
+
+.li-vertical a.a-information {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.li-vertical a.a-search {
+    border-bottom: 1px solid white;
+}
+
+
+.li-vertical a.a-health {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 8px 40px 8px 40px;
+}
+
+.li-vertical a.a-itinerary {
+    padding: 8px 40px 8px 40px;
+    border-bottom: 1px solid white;
+}
+
+.li-vertical a:hover {
+    background-color: rgba(88, 86, 86, 0.93);
+}

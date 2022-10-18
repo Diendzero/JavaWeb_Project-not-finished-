@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    margin: 0;
+    font-family: "汉仪文黑";
+    color: #666;
+}
+
+div {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#header {
+    height: 82px;
+    width: 1200px;
+}
+
+.img_div {
+    height: 150px;
+    text-align: center;
+}
+
+.logo_img {
+    width: 285px;
+    height: 70px;
+    float: left;
+}
+
+#header div a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#header div {
+    float: right;
+    margin-top: 55px;
+}
+
+#loginSuccess_header {
+    width: 285px;
+    height: 70px;
+    margin-left: 0px;
+}
+
+.loginSuccess_banner {
+    background-image: url("../../statics/Picture/背景壁纸.jpeg");
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    margin-top: 0;
+}
+
+.loginSuccess_form {
+    height: 350px;
+    width: 406px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+#content {
+    height: 475px;
+    width: 1200px;
+}
+
+.loginSuccess_box {
+    padding: 130px 10px 130px 40px;
+    height: 260px;
+    width: 366px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.itxt {
+    border: 0 none;
+    float: none;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 250px;
+    border: 1px #e3e3e3 solid;
+}
+
+#loginSuccess_bottom {
+    height: 30px;
+    width: 1200px;
+    text-align: center;
+}

@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    margin: 0;
+    font-family: "汉仪文黑";
+    color: #666;
+}
+
+div {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#header {
+    height: 82px;
+    width: 1200px;
+}
+
+#bottom {
+    height: 30px;
+    width: 1200px;
+    text-align: center;
+}
+
+.img_div {
+    height: 150px;
+    text-align: center;
+}
+
+.logo_img {
+    width: 285px;
+    height: 70px;
+    float: left;
+}
+
+#header div a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#header div {
+    float: right;
+    margin-top: 55px;
+}
+
+#regist_header {
+    width: 285px;
+    height: 70px;
+    margin-left: 0px;
+}
+
+.regist_banner {
+    background-image: url("../../statics/Picture/背景壁纸.jpeg");
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    margin-top: 0;
+}
+
+.regist_form {
+    height: 415px;
+    width: 406px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+#content {
+    height: 475px;
+    width: 1200px;
+}
+
+.regist_box {
+    margin: 20px;
+    height: 270px;
+    width: 366px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.msg_cont {
+    background: none repeat scroll 0 0 #fff6d2;
+    border: 1px solid #ffe57d;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+    border: none;
+}
+
+.login_user_name {
+    height: 30px;
+    width: 30px;
+}
+
+.login_user_password {
+    height: 30px;
+    width: 30px;
+}
+
+.form .itxt {
+    border: 0 none;
+    float: none;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 250px;
+    border: 1px #e3e3e3 solid;
+}
+
+#sub_btn {
+    background-color: #10c1f4;
+    border: none;
+    color: #fff;
+    width: 360px;
+    height: 35px;
+}
+
+#l_content span {
+    font-size: 60px;
+    color: white;
+}
+
+.tit h1 {
+    float: left;
+    margin-top: -15px;
+}
+
+.tit a {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #7b7979;
+    text-decoration: none;
+}
+
+.tit .errorMsg {
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: red;
+}
+
+.tit {
+    height: 45px;
+}

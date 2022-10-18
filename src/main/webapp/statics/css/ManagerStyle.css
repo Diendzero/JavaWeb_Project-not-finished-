@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    font-family: "汉仪文黑";
+}
+
+/*后台管理CSS样式*/
+#manager_title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+#manager_ul_horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10b0f6;
+}
+
+.manager_li_horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    border-left: 1px solid #ffffff;
+}
+
+.manager_li_horizontal a:hover {
+    background-color: #0985ef;
+}
+
+#manager_content {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 400px;
+    width: 1000px;
+    margin: 70px 150px 10px 145px;
+}
+
+#manager_content_text {
+    margin: 165px 120px 100px 130px;
+    font-size: 30px;
+}
+
+#bottom_line {
+    width: 1250px;
+    height: 5px;
+    margin: 20px 5px 5px 5px;
+    border-bottom: 1px solid #000000;
+}
+
+#bottom {
+    height: 20px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px 150px 5px 130px;
+    font-size: 10px;
+}

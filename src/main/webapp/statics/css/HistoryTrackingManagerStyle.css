@@ -1,0 +1,193 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    font-family: "汉仪文黑";
+}
+
+/*后台管理CSS样式*/
+#manager_historyTracking_title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+#manager_historyTracking_ul_horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10b0f6;
+}
+
+.manager_historyTracking_li_horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    border-left: 1px solid #ffffff;
+}
+
+#manager_historyTracking_li_horizontal_special {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    border-left: 1px solid #ffffff;
+    background-color: #213cc7;
+}
+
+.manager_historyTracking_li_horizontal a:hover {
+    background-color: #0985ef;
+}
+
+#function_div {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin: 20px 4px 10px 0px;
+}
+
+#function_div_add {
+    display: none;
+}
+
+#function_div_delete {
+    display: none;
+}
+
+#function_div_edit {
+    display: none;
+}
+
+#function_div_addImg {
+    padding: 6px 20px;
+    float: left;
+}
+
+#function_div_deleteImg {
+    padding: 6px 20px;
+    float: left;
+}
+
+#function_div_editImg {
+    padding: 6px 20px;
+    float: left;
+}
+
+#function_div_addTable {
+    padding-top: 6px;
+    float: left;
+}
+
+#function_div_deleteArea {
+    padding: 5px;
+    float: left;
+}
+
+#function_div_delete1 {
+    padding-top: 5px;
+    padding-right: 100px;
+    float: left;
+}
+
+#function_div_delete2 {
+    padding-top: 5px;
+    float: right;
+}
+
+#function_form_edit {
+    padding-top: 9px;
+    padding-left: 20px;
+    float: left;
+}
+
+.function_div_table_td {
+    padding-right: 40px;
+}
+
+.function_div_table_input {
+    width: 110px;
+}
+
+.square_plus_regular {
+    height: 25px;
+    width: 25px;
+}
+
+#main_div {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+    margin: 10px 4px 10px 0px;
+}
+
+#main_subdiv1 {
+    float: left;
+    width: 92%;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+#main_subdiv2 {
+    float: left;
+    width: 8%;
+    height: 400px;
+}
+
+#main_subdiv1 thead {
+    white-space: nowrap;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+}
+
+#main_subdiv1 tbody {
+    white-space: nowrap;
+    text-align: center;
+    height: 400px;
+}
+
+#main_subdiv1 tbody tr:nth-child(even) {
+    background-color: #cbcbcb;
+}
+
+#main_subdiv2 thead {
+    white-space: nowrap;
+    text-align: right;
+    font-weight: bold;
+    height: 50px;
+}
+
+#bottom_line {
+    width: 1250px;
+    height: 5px;
+    margin: 20px 5px 5px 5px;
+    border-bottom: 1px solid #000000;
+}
+
+#bottom {
+    height: 20px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px 150px 5px 130px;
+    font-size: 10px;
+}

@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "汉仪文黑";
+    src: url("../Font/zh-cn.ttf");
+}
+
+* {
+    font-family: "汉仪文黑";
+}
+
+/*添加行程记录页面CSS样式*/
+#edit_historyTracking_title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+#edit_historyTracking_ul_horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10b0f6;
+}
+
+#edit_main {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 210px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+
+#edit_main_table thead {
+    padding-bottom: 30px;
+}
+
+#bottom_line {
+    width: 1250px;
+    height: 5px;
+    margin: 20px 5px 5px 5px;
+    border-bottom: 1px solid #000000;
+}
+
+#bottom {
+    height: 20px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px 150px 5px 130px;
+    font-size: 10px;
+}
